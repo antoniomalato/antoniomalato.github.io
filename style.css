@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     text-align: center;
     background-color: rgb(63, 87, 138);
@@ -7,6 +13,43 @@ header {
     background-color: rgb(11, 65, 109);
     font-size: 1.5em;
     color: rgba(245, 245, 245, 0);
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.box-main {
+    position: absolute;
+    width: 100%;
+}
+
+.box-name {
+    float: left;
+    max-width: 600px;
+    margin-left: 80px;
+    padding-top: 120px;
+    color: white;
+}
+
+.box-photo {
+    float: right;
+    padding-right: 150px;
+}
+
+.name {
+    padding: 30px;
+    color: white;
+
+}
+
+.trybe {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.trybe:hover {
+    text-transform: uppercase;
+    color: rgb(22, 179, 69);
 }
 
 ul {
@@ -28,4 +71,15 @@ p {
 
 li {
     font-weight: 800;
+    padding: 10px;
+}
+.footer {
+    color: white;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 550px;
+}
+
+#skills {
+    padding: 30px;
 }
